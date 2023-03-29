@@ -17,7 +17,7 @@ const Nav = () => {
             <Link to="friends">Friends</Link>
           </li>
           <li>
-            <Link to="post">Post</Link>
+            <Link to="posts">Post</Link>
           </li>
           <li>
             <Link to="about">About</Link>

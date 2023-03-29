@@ -14,10 +14,13 @@ const Nav = () => {
             <Link to="home">Home</Link>
           </li>
           <li>
-            <Link to="about">About</Link>
+            <Link to="friends">Friends</Link>
           </li>
           <li>
-            <Link to="friends">Friends</Link>
+            <Link to="post">Post</Link>
+          </li>
+          <li>
+            <Link to="about">About</Link>
           </li>
         </ul>
       </div>

@@ -16,7 +16,7 @@ const FriendDetails = () => {
               <p>Street : {address.street}</p>
               <p>Suit : {address.suite}</p>
               <p>City : {address.city}</p>
-              <p>Zip Code : {address.zipcode}</p>
+              <p>Zip Code : {address.zipcode.split("-")[0]}</p>
             </div>
             <a
               href={`http://${website}`}

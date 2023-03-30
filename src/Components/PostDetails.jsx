@@ -3,7 +3,7 @@ import React from 'react';
 const PostDetails = () => {
     return (
         <div>
-            Hello This is Post Details
+            This is Post Details
         </div>
     );
 };

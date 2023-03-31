@@ -13,7 +13,7 @@ const FriendDetails = () => {
             <p className="font-semibold py-2">Phone : {phone.split(" ")[0]}</p>
             <div className="mt-4 mb-7 bg-slate-400 py-3 rounded-3xl ">
               <h2 className="text-xl font-bold">Address</h2>
-              <p>Street : {address.street}</p>
+              <p>Street : {address.street} </p>
               <p>Suit : {address.suite}</p>
               <p>City : {address.city}</p>
               <p>Zip Code : {address.zipcode.split("-")[0]}</p>
